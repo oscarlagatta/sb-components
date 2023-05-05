@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "homepage": "http://oscarlagatta.com",
   "repository": {
-    "url": "https://github.com/oscarlagatta/sb-components",
+    "url": "https://github.com/oscarlagatta/sb-components.git",
     "type": "git"
   },
   "peerDependencies": {
