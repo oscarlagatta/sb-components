@@ -1,6 +1,5 @@
+/// <reference types="react" />
 import './MyLabel.css';
-
-
 export interface Props {
     /**
      * This is the Text that will be displayed
@@ -23,22 +22,5 @@ export interface Props {
      */
     fontColor?: string;
 }
-
-export const MyLabel = ({
-    label = 'No Label',
-    size = 'normal',
-    allCaps = false,
-    color = 'primary',
-    fontColor
-}: Props) => {
-    return (
-        <span className={`label ${size} text-${color} `}
-            style={{color: fontColor}}
-        >
-            {allCaps ? label.toUpperCase() : label}
-        </span>
-
-    )
-}
-
+export declare const MyLabel: ({ label, size, allCaps, color, fontColor }: Props) => JSX.Element;
 export default MyLabel;
